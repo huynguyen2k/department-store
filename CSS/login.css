@@ -1,0 +1,69 @@
+/* section-login */
+#section-login .wrap-login {
+    margin: 0 15px 30px 15px;
+    background-color: white;
+}
+
+#section-login .wrap-login > .login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 15px 50px 15px;
+}
+
+#section-login .login > .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section-login .login > .intro {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+#section-login .login > label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+#section-login .login > input[type="text"] {
+    display: block;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+
+#section-login .login > input[type="text"]:focus {
+    border-color: dodgerblue;
+}
+
+#section-login .login > .btn-action {
+    margin-bottom: 30px;
+}
+
+#section-login .login > .btn-action > input[type="submit"] {
+    padding: 10px 20px;
+    color: white;
+    background-color: #f26d7d;
+    border: 1px solid #f26d7d;
+    margin-right: 10px;
+}
+
+#section-login .login > .btn-action > .forget {
+    text-decoration: none;
+    color: black;
+}
+
+#section-login .login > .btn-action > .forget:hover {
+    color: #f26d7d;
+}
+
+#section-login .login > .btn-action > input[type="submit"]:hover {
+    background-color: #ee3147;
+}

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f8f9;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container .column-left {
+    width: 25%;
+    float: left;
+}
+
+.container .column-right {
+    width: 75%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* breadcrumb */
+#breadcrumb .link {
+    margin: 82px 15px 15px 15px;
+    padding: 15px;
+    background-color: white;
+    font-size: 0.9rem;
+}
+
+#breadcrumb .link > a {
+    text-decoration: none;
+    color: black;
+}
+
+#breadcrumb .link > span {
+    font-weight: bold;
+}
+
+#breadcrumb .link > a:hover {
+    color: #f26d7d;
+}
+
+/* social-login */
+.social-login > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    width: 150px;
+    margin-right: 5px;
+}
+
+.social > a > i {
+    text-align: center;
+    width: 40px;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    line-height: 40px;
+}
+
+.social > a > span {
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+}
+
+.social > .facebook {
+    background-color: #4267b2;
+}
+
+.social > .google {
+    background-color: #e14b33;
+}

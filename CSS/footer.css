@@ -1,0 +1,229 @@
+/* section-policy */
+#section-policy .contain-policy {
+    margin: 0 15px 0 15px;
+    padding: 15px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+}
+
+#section-policy .contain-policy > .policy {
+    float: left;
+    width: 50%;
+    border-right: 1px solid lightgray;
+}
+
+#section-policy .item {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 10px;
+    line-height: 55px;
+}
+
+#section-policy .item > img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#section-policy .item > span {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#section-policy .contain-policy > .contact {
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+#section-policy .contact > .hotline {
+    float: left;
+    width: 50%;
+    position: relative;
+    padding-left: 50px;
+}
+
+#section-policy .contact > .hotline > img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+#section-policy .contact > .hotline > span {
+    display: block;
+    font-weight: bold;
+}
+
+#section-policy .contact > .hotline > a {
+    color: rgba(255, 0, 0, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 40px;
+}
+
+#section-policy .contact > .hotline > a:hover {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+/* section-copyright */
+#section-copyright .contain-copyright {
+    margin: 0 15px;
+    padding: 30px 15px;
+    background-color: white;
+}
+
+#section-copyright .info {
+    float: left;
+    width: 40%;
+}
+
+#section-copyright .info > .img-logo {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#section-copyright .info > .address {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#section-copyright .info > .address > strong {
+    font-weight: bold;
+}
+
+#section-copyright .info > .social > p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #007dc5;
+    margin-bottom: 15px;
+}
+
+#section-copyright .info .link-share > a {
+    display: inline-block;
+    width: 35px;
+    margin-right: 7px;
+}
+
+#section-copyright .info .link-share > a > img {
+    width: 100%;
+    transition-duration: .3s;
+}
+
+#section-copyright .info .link-share > a > img:hover {
+    transform: rotate(-30deg);
+}
+
+#section-copyright .about-us {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+#section-copyright .about-us > .title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #007dc5;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#section-copyright .about-us > .list > li {
+    line-height: 30px;
+}
+
+#section-copyright .about-us > .list > li > a {
+    display: inline-block;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #007dc5;
+    position: relative;
+}
+
+#section-copyright .about-us > .list > li > a:hover {
+    color: #f26d7d;
+}
+
+#section-copyright .about-us > .list > li > a::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #007dc5;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#section-copyright .about-us > .list > li > a:hover::before {
+    background-color: #f26d7d;
+}
+
+#section-copyright .support {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+#section-copyright .support > .title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #007dc5;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#section-copyright .support > .list > li {
+    line-height: 30px;
+}
+
+#section-copyright .support > .list > li > a {
+    display: inline-block;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #007dc5;
+    position: relative;
+}
+
+#section-copyright .support > .list > li > a:hover {
+    color: #f26d7d;
+}
+
+#section-copyright .support > .list > li > a::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #007dc5;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#section-copyright .support > .list > li > a:hover::before {
+    background-color: #f26d7d;
+}
+
+#section-copyright .copyright {
+    text-align: center;
+    margin-top: 10px;
+    color: #666666;
+}

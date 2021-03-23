@@ -1,0 +1,62 @@
+/* section-register */
+#section-register .wrap-register {
+    margin: 0 15px 30px 15px;
+    background-color: white;
+}
+
+#section-register .register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 15px 50px 15px;
+}
+
+#section-register .register > .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section-register .register > label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+#section-register .register > input[type="text"] {
+    display: block;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+
+#section-register .register > input[type="text"]:focus {
+    border-color: dodgerblue;
+}
+
+#section-register .btn-action {
+    margin-bottom: 30px;
+}
+
+#section-register .btn-action > input[type="submit"] {
+    padding: 7px 20px;
+    color: white;
+    background-color: #f26d7d;
+    border: 1px solid #f26d7d;
+    margin-right: 10px;
+}
+
+#section-register .btn-action > .return {
+    padding: 7px 10px;
+    color: white;
+    background-color: #f26d7d;
+    border: 1px solid #f26d7d;
+    text-decoration: none;
+}
+
+#section-register .btn-action > input[type="submit"]:hover,
+#section-register .btn-action > .return:hover {
+    background-color: #ee3147;
+}

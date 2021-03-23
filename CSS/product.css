@@ -1,0 +1,213 @@
+/* section-filter */
+#section-filter .wrap-filter {
+    margin: 0 15px 0 15px;
+    padding: 0 15px;
+    background-color: white;
+}
+
+#section-filter .wrap-filter > .title {
+    display: inline-block;
+    padding: 15px 0;
+    font-weight: bold;
+    color: red;
+}
+
+#section-filter .wrap-filter > .filter {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 15px 0;
+    position: relative;
+}
+
+#section-filter .wrap-filter > .filter > span > i {
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+#section-filter .filter:hover > .filter-group {
+    display: block;
+}
+
+#section-filter .filter > .filter-group {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 250px;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    z-index: 1000;
+}
+
+#section-filter .filter > .filter-group > li {
+    margin-bottom: 10px;
+}
+
+#section-filter .filter > .filter-group > li:last-child {
+    margin-bottom: 0;
+}
+
+#section-filter .filter > .filter-group > li > span {
+    display: inline-block;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+#section-filter .filter > .filter-group > li > span > input {
+    margin-right: 5px;
+}
+
+#section-filter .filter > .filter-group > li > span > * {
+    cursor: pointer;
+}
+
+#section-filter .filter > .filter-group > li > span:hover > label {
+    color: #f26d7d;
+}
+
+/* section-product */
+.section-product .contain-product {
+    margin: 20px 15px 30px 15px;
+}
+
+.section-product .title {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.section-product .title::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 21px;
+    background-color: #e51414;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+.section-product .title > .link {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.section-product .title > .sort {
+    float: right;
+}
+
+.section-product .title > .sort > label {
+    font-weight: bold;
+}
+
+.section-product .title > .sort > select {
+    padding: 5px;
+}
+
+.section-product .title > a:hover {
+    color: #f26d7d;
+}
+
+.section-product .list-product {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.section-product .list-product > li {
+    width: 20%;
+    float: left;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-product .list-product > li > a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.section-product .list-product .img-product {
+    position: relative;
+    margin: 15px 0;
+}
+
+.section-product .list-product .img-product > i {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    background-color: white;
+    color: black;
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+.section-product .list-product .img-product:hover > i {
+    opacity: 1;
+}
+
+.section-product .list-product .img-product > i:hover {
+    background-color: #f26d7d;
+    color: white;
+}
+
+.section-product .list-product .img-product > img {
+    width: 100%;
+}
+
+.section-product .list-product .info > span {
+    display: block;
+}
+
+.section-product .list-product .info > .name-product {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.section-product .list-product .info > .new-price {
+    font-weight: bold;
+    color: #ed1c24;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.section-product .list-product .info > .old-price {
+    color: #a1a1a1;
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    text-decoration-color: #a1a1a1;
+}
+
+.section-product .list-product .btn-link {
+    display: block;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    text-align: center;
+    color: dodgerblue;
+    margin-top: 10px;
+    padding: 5px 0;
+    transition-duration: .1s;
+}
+
+.section-product .list-product .info > .name-product:hover {
+    color: #f26d7d;
+}
+
+.section-product .list-product > li > a:hover .btn-link {
+    background-color: #f26d7d;
+    color: white;
+    border: 1px solid #f26d7d;
+}
+
